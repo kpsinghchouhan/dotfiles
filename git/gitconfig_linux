@@ -1,0 +1,10 @@
+[user]
+	name = kpsinghchouhan
+	emai = kpsingh.chouhan@gmail.com
+[core]
+	editor = vim
+	autocrlf = input
+[help]
+	autocorrect = 1
+[color]
+	ui = auto
