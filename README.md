@@ -1,5 +1,7 @@
 # dotfiles
+Git:
+Modify gitconfig_linux file to add update user.name and user.email values
+
 Vim:
-ln -nfs ~/bin/dotfiles/vim/vimrc .vimrc
-ln -nfs ~/bin/dotfiles/vim/gvimrc .gvimrc
-ln -nfs ~/bin/dotfiles/vim .vim
+
+Run shell script init.sh to create symlinks for both Vim and Git configuration files.
