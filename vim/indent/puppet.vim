@@ -9,6 +9,9 @@ if exists("b:did_indent")
 endif
 let b:did_indent = 1
 
+setlocal expandtab
+setlocal shiftwidth=2
+setlocal softtabstop=2
 setlocal autoindent smartindent
 setlocal indentexpr=GetPuppetIndent()
 setlocal indentkeys+=0],0)
