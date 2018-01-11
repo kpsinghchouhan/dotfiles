@@ -7,6 +7,7 @@ ln -nfs ~/bin/dotfiles/vim/gvimrc ~/.gvimrc
 ln -nfs ~/bin/dotfiles/vim ~/.vim
 
 # Create sysmlinks for git configuration file
+# Test 1
 
 ln -nfs ~/bin/dotfiles/git/gitconfig_linux ~/.gitconfig
 
