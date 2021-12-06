@@ -6,4 +6,3 @@ Vim:
 
 Run shell script init.sh to create symlinks for both Vim and Git configuration files.
 
-Test#1 
