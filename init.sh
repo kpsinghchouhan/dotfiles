@@ -9,5 +9,3 @@ ln -nfs ~/bin/dotfiles/vim ~/.vim
 # Create sysmlinks for git configuration file
 
 ln -nfs ~/bin/dotfiles/git/gitconfig_linux ~/.gitconfig
-
-
