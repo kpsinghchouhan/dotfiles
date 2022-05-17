@@ -1,0 +1,12 @@
+[user]
+	name = kpsinghchouhan
+	email = kpsingh.chouhan@gmail.com
+[core]
+	editor = notepad
+	autocrlf = true
+[help]
+	autocorrect = 1
+[color]
+	ui = auto
+[push]
+	default = simple
