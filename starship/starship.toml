@@ -8,10 +8,11 @@ $git_status\
 $cmd_duration\
 $line_break\
 $python\
+$ruby\
 $character"""
 
 [directory]
-style = "cyan"
+style = "bright-cyan"
 
 [character]
 success_symbol = "[❯](purple)"
@@ -40,3 +41,9 @@ style = "bright-black"
 [cmd_duration]
 format = "[$duration]($style) "
 style = "yellow"
+
+[python]
+format = 'via [${symbol}${pyenv_prefix}(${version} )(\($virtualenv\) )]($style)'
+
+[ruby]
+format = "via [$symbol($version )]($style)"
