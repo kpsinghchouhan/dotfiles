@@ -1,0 +1,122 @@
+{
+  "blocked": [
+    "www.primevideo.com",
+    "www.youtube.com",
+    "www.bbc.com",
+    "www.hindustantimes.com",
+    "www.imdb.com",
+    "www.netflix.com"
+  ],
+  "close": 0,
+  "contextmenu-frame": true,
+  "contextmenu-pause": true,
+  "contextmenu-resume": true,
+  "contextmenu-top": true,
+  "crate": 2,
+  "css": "",
+  "initialBlock": true,
+  "initialBlockCurrent": true,
+  "last-update": 1672147218663,
+  "map": {},
+  "message": "",
+  "no-password-on-add": false,
+  "pause-periods": [
+    5,
+    10,
+    15,
+    30,
+    60,
+    360,
+    1440
+  ],
+  "redirect": "",
+  "reverse": false,
+  "schedules": {
+    "www.[netfllix|primevideo|youtube].com": {
+      "times": {
+        "Sun": [
+          {
+            "start": "00:00",
+            "end": "17:00"
+          }
+        ],
+        "Mon": [
+          {
+            "start": "00:00",
+            "end": "23:59"
+          }
+        ],
+        "Tue": [
+          {
+            "start": "00:00",
+            "end": "23:59"
+          }
+        ],
+        "Wed": [
+          {
+            "start": "00:00",
+            "end": "23:59"
+          }
+        ],
+        "Thu": [
+          {
+            "start": "00:00",
+            "end": "23:59"
+          }
+        ],
+        "Fri": [
+          {
+            "start": "00:00",
+            "end": "23:59"
+          }
+        ],
+        "Sat": [
+          {
+            "start": "00:00",
+            "end": "17:00"
+          }
+        ]
+      }
+    },
+	"www.[bbc|hindustantimes|imdb].com": {
+      "times": {
+        "Mon": [
+          {
+            "start": "00:00",
+            "end": "21:00"
+          }
+        ],
+        "Tue": [
+          {
+            "start": "00:00",
+            "end": "21:00"
+          }
+        ],
+        "Wed": [
+          {
+            "start": "00:00",
+            "end": "21:00"
+          }
+        ],
+        "Thu": [
+          {
+            "start": "00:00",
+            "end": "21:00"
+          }
+        ],
+        "Fri": [
+          {
+            "start": "00:00",
+            "end": "21:00"
+          }
+        ]
+      }
+    }
+  },
+  "sha256": "",
+  "timeout": 60,
+  "title": true,
+  "wrong": 1,
+  "managed.storage.overwrite.on.start": false,
+  "guid": "888d2328-dfc4-41eb-a515-8c317bb512d0"
+}
