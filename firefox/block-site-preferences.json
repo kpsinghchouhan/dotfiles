@@ -1,22 +1,28 @@
 {
   "blocked": [
-    "www.primevideo.com",
-    "www.youtube.com",
-    "www.bbc.com",
-    "www.hindustantimes.com",
-    "www.imdb.com",
-    "www.netflix.com"
+    "bbc.com",
+    "*.bbc.com",
+	"hindustantimes.com",
+    "*.hindustantimes.com",
+	"imdb.com",
+    "*.imdb.com",
+	"netflix.com",
+    "*.netflix.com",
+	"primevideo.com",
+    "*.primevideo.com"
   ],
   "close": 0,
   "contextmenu-frame": true,
   "contextmenu-pause": true,
   "contextmenu-resume": true,
   "contextmenu-top": true,
-  "crate": 2,
+  "crate": 5,
   "css": "",
+  "guid": "0c3c8c71-c60c-4f1e-a360-968308d63fdb",
   "initialBlock": true,
   "initialBlockCurrent": true,
   "last-update": 1672147218663,
+  "managed.storage.overwrite.on.start": false,
   "map": {},
   "message": "",
   "no-password-on-add": false,
@@ -32,91 +38,72 @@
   "redirect": "",
   "reverse": false,
   "schedules": {
-    "www.[netfllix|primevideo|youtube].com": {
+	"(bbc|hindustantimes|imdb)\\.com": {
       "times": {
-        "Sun": [
+	    "Sun": [
           {
-            "start": "00:00",
-            "end": "17:00"
+            "start": "17:00",
+			"end": "23:59"
           }
         ],
-        "Mon": [
+		"Mon": [
           {
-            "start": "00:00",
-            "end": "23:59"
+            "start": "21:00",
+			"end": "23:59"
           }
         ],
-        "Tue": [
+		"Tue": [
           {
-            "start": "00:00",
-            "end": "23:59"
+            "start": "21:00",
+			"end": "23:59"
           }
         ],
-        "Wed": [
+		"Wed": [
           {
-            "start": "00:00",
-            "end": "23:59"
+            "start": "21:00",
+			"end": "23:59"
           }
         ],
-        "Thu": [
+		"Thu": [
           {
-            "start": "00:00",
-            "end": "23:59"
+            "start": "21:00",
+			"end": "23:59"
           }
         ],
-        "Fri": [
+		"Fri": [
           {
-            "start": "00:00",
-            "end": "23:59"
+            "start": "21:00",
+			"end": "23:59"
           }
         ],
-        "Sat": [
+		"Sat": [
           {
-            "start": "00:00",
-            "end": "17:00"
+            "start": "17:00",
+			"end": "23:59"
           }
         ]
-      }
-    },
-	"www.[bbc|hindustantimes|imdb].com": {
+	  }
+	},
+	"(netflix|primevideo)\\.com": {
       "times": {
-        "Mon": [
+	    "Sun": [
           {
-            "start": "00:00",
-            "end": "21:00"
+            "start": "17:00",
+			"end": "23:59"
           }
         ],
-        "Tue": [
+		"Sat": [
           {
-            "start": "00:00",
-            "end": "21:00"
-          }
-        ],
-        "Wed": [
-          {
-            "start": "00:00",
-            "end": "21:00"
-          }
-        ],
-        "Thu": [
-          {
-            "start": "00:00",
-            "end": "21:00"
-          }
-        ],
-        "Fri": [
-          {
-            "start": "00:00",
-            "end": "21:00"
+            "start": "17:00",
+			"end": "23:59"
           }
         ]
-      }
-    }
+	  }
+	}
   },
+  "schedule-offset": 0,
   "sha256": "",
   "timeout": 60,
   "title": true,
-  "wrong": 1,
-  "managed.storage.overwrite.on.start": false,
-  "guid": "888d2328-dfc4-41eb-a515-8c317bb512d0"
+  "wrong": 1
 }
