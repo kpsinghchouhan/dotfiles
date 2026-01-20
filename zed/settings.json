@@ -9,6 +9,13 @@
 {
   "autosave": "on_focus_change",
   "buffer_font_size": 16,
+  "languages": {
+    "JSON": {
+      "tab_size": 2,
+      "hard_tabs": false,
+      "format_on_save": "on"
+    }
+  },
   "tab_bar": {
     "show": true,
     "show_nav_history_buttons": false,
